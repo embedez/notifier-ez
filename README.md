@@ -1,5 +1,9 @@
 # Notifier EZ
 
+[![NPM Version](https://img.shields.io/npm/v/notifier-ez.svg)](https://www.npmjs.com/package/notifier-ez) [![Discord](https://img.shields.io/discord/1030386110519586846?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/DmfATtvbrB) [![Downloads](https://img.shields.io/npm/dm/notifier-ez.svg)](https://www.npmjs.com/package/notifier-ez) [![GitHub Stars](https://img.shields.io/github/stars/embedez/notifier-ez.svg)](https://github.com/embedez/notifier-ez/stargazers) [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+
+
+
 A unified notification service that supports multiple platforms including Discord, Telegram, Slack, Gotify, Bark, and SMTP email.
 
 ## Usage
@@ -99,3 +103,9 @@ smtp://username:password@host:port?from=fromAddress&to=toAddress1,toAddress2
 - `port`: SMTP port (usually 465 for SSL)
 - `from`: Sender email address
 - `to`: Recipient email address(es), comma-separated
+
+## Credits
+
+Created and maintained by:
+- [EmbedEZ (Media Save)](https://github.com/embedez)
+- [Gratenes](https://github.com/Gratenes)

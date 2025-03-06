@@ -18,7 +18,16 @@
     "email",
     "push-notification"
   ],
-  "author": "chance",
+  "author": {
+    "name": "Media Save",
+    "url": "https://github.com/embedez"
+  },
+  "contributors": [
+    {
+      "name": "Gratenes",
+      "url": "https://github.com/Gratenes"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "@types/bun": "^1.2.4",
