@@ -1,0 +1,37 @@
+{
+  "name": "notifier-ez",
+  "version": "1.0.1",
+  "description": "A universal notification package that supports multiple platforms through URL-based configuration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "bun test",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "notification",
+    "webhook",
+    "discord",
+    "slack",
+    "telegram",
+    "email",
+    "push-notification"
+  ],
+  "author": "chance",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "^1.2.4",
+    "@types/node": "^20.10.5",
+    "@types/nodemailer": "^6.4.17",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "nodemailer": "^6.10.0"
+  }
+}
